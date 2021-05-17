@@ -1,0 +1,42 @@
+- Implementation and construction of an automatic Pac-Man agent able to adapt and learn in an unknown environment after having trained the agent in a variety of situations.
+
+-Classification and prediction of the agent’s behaviour with WEKA.
+
+- Deeper knowledge and greater understanding of the Q-Learning algorithm.
+
+
+
+Estructura del proyecto Práctica 1 Pacman
+
+├── memoria.pdf          # memoria del proyecto
+│
+├── codigo_fuente        #proyecto en python
+│          
+├── fase2                # Archivos Fase 2
+│   ├── Keyboard         # archivos .arff teclado fase 1 filtrados
+│   └── Tutorial1        # archivos .arff BasciAgentAA fase 1 filtrados
+│            
+├── fase3                # Archivos Fase 2
+│   ├── Keyboard         # archivos regresion filtrado Teclado score +1, +2, +3
+│   │	├── training_keyboard_score1.arff 
+│   │	...        
+│   │	├── test_samemaps_keyboard_score1.arff  
+│   │ 	...       
+│   │	├── test_othermaps_keyboard_score1.arff 
+│   │	...        
+│   │
+│   └── Tutorial1        # archivos regresion filtrado BasicAgent score +1, +2, +3
+│   	├── training_keyboard_score1.arff 
+│   	...        
+│  	├── test_samemaps_keyboard_score1.arff  
+│    	...       
+│   	├── test_othermaps_keyboard_score1.arff 
+│   	... 
+│      
+└── fase4                # Archivos Fase 2
+    ├── Keyboard         # modelos e instancias fase 2 training de Teclado
+    └── Tutorial1        # modelos e instancias fase 2 training de BasicAgent
+        ...       
+        ├── j48verybest.model 
+        ... 
+    
